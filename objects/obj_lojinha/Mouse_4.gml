@@ -1,0 +1,1 @@
+//if(global.dinheiro >= price) image_index = 1;

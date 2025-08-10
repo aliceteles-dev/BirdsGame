@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"som_msc_fundo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":94.248,
+  "name":"som_msc_fundo",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_msc_fundo.mp3",
+  "type":0,
+  "volume":1.0,
+}

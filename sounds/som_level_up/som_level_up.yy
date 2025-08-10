@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"som_level_up",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.260068,
+  "name":"som_level_up",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"som_level_up.wav",
+  "type":0,
+  "volume":0.35,
+}

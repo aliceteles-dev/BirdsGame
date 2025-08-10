@@ -1,0 +1,60 @@
+PROGRAMANDO O PLAYER
+
+1) Manter a sprite parada - se ele subir, a sprite se mexe.
+
+	Uma possibilidade é: programar no create o index 0; ao rodar o space pressed, passar para o 1 e ativar um 
+	alarme para passar para o 2 depois de 1 segundo, e outro alarme para fazer retornar ao 0.
+	
+	Outra possibilidade: iniciar no create com o index 0, image speed a 0; ao rodar o space pressed, dar um jeito
+	de fazer rodar a 1, a 2 e em seguida retornar e congelar na 0.
+
+2) Programar o movimento vertical do player.
+
+POLIMENTO DO JOGO:
+Impedir o player de fazer o pássaro subir mais uma vez antes que termine de rodar a animação dele batendo as asas.
+
+No GameMaker, tudo que é marcado pela cor laranja é uma FUNÇÃO. É bom sempre iniciar uma função num script.
+
+
+
+Definir uma fonte bonita; adicionar caracteres com acento; arredondar a pontuação; melhorar
+a definição da fonte.
+
+RESPONDA: PARA QUÊ SERVE O SDF NA RENDERIZAÇÃO DAS FONTES?
+
+
+TAREFAS:
+1) Codar o botão para voltar ao tamanho inicial usando o lerp, criando assim um efeito muito mais agradável
+	Lembrando de diminuir o y, em vez de aumentar.
+2) Depois de criar o efeito do lerp, criar um efeito contrário (menor de largura e maior de altura) quando clico nele.
+
+
+
+Talvez uma maneira de codar o que eu tô querendo fazer é colocar uma condicional do draw do botão.
+Com if vkcheck mouse etc etc
+
+
+DESAFIO: controlar as transições (usar uma variável de controle).
+Variável de controle é uma variável booleana.
+
+
+IDEIA PARA A MINHA VERSÃO DO JOGO:
+COMEÇA NUMA TELA PRETA E VAI SURGINDO O TEXTO (DELAY REPRESENTADO POR /)
+"AH, ENTÃO VOCÊ GOSTARIA DE TER A EXPERIÊNCIA DE VOAR? /
+ÓTIMO. / INTERESSANTE. /
+ENTÃO ESCOLHA COMO VOCÊ GOSTARIA DE VIVENCIAR ISSO.
+VOCÊ PREFERE SER (INSIRA DESCRIÇÃO ZOADA PRA UM SER HUMANO) OU
+(INSIRA UMA DESCRIÇÃO FODA PRA UMA AVE) /
+player escolhe o que ele quer.
+ÓTIMO. VAMOS COMEÇAR.
+Depois disso, começa o jogo. Se o player escolheu a ave, vai pra versão usando os assets
+das aulas do None. Se ele escolheu o ser humano, vai jogar com os meus desenhos feios.
+Também vai ter diferença na trilha sonora e nos efeitos sonoros. Os dois vão funcionar como jogos
+completamente diferentes mas com a mesma mecânica, sendo 2 em 1.
+
+
+
+AJUSTES :
+colocar pra não aparecer o ícone do peixe + ícone do level + contagem de pontos enquanto estiver rolando a transição
+
+mudar o tempo da transição para 1 segundo.
